@@ -18,7 +18,7 @@ h1 {
     font-weight: 400;
 }
 h2 {
-    margin-top: 50px;
+    margin: 10px 0;
     font-size: 24px;
     font-weight: 500;
     color: #1e293b;
@@ -38,4 +38,12 @@ a:hover {
 }
 ul {
     padding-left: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
