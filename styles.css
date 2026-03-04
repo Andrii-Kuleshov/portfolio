@@ -6,48 +6,62 @@ body {
     font-weight: 300;
     line-height: 1.6;
 }
+
 header {
     background-color: #1e293b;
     color: white;
     padding: 40px 20px;
     text-align: center;
 }
+
 h1 {
     margin: 0;
     font-size: 36px;
     font-weight: 400;
 }
+
 h2 {
     margin: 10px 0;
     font-size: 24px;
     font-weight: 500;
     color: #1e293b;
 }
+
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
+
 a {
     color: #2563eb;
     text-decoration: none;
     font-weight: 500;
     transition: 0.2s;
 }
+
 a:hover {
     text-decoration: underline;
-     color: #1d4ed8;
+    color: #1d4ed8;
 }
+
 ul {
     padding-left: 20px;
 }
 
-section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+.section-block {
+  margin-bottom: 40px;
+}
+
+.section-block h2 {
+  margin-bottom: 12px;
+}
+
+.section-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .project-card {
@@ -56,12 +70,6 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.projects {
-    background-color: transparent;
-    box-shadow: none;
-    padding: 0;
 }
 
 .project-card:hover {
@@ -103,4 +111,31 @@ section {
 .skills-list li:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.contact-email {
+  margin-top: 0;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
