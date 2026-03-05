@@ -27,6 +27,18 @@ h2 {
     color: #1e293b;
 }
 
+.section-card p {
+    margin: 8px 0;
+}
+
+.section-card p:first-child {
+    margin-top: 0;
+}
+
+.section-card p:last-child {
+    margin-bottom: 0;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
