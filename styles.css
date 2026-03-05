@@ -51,7 +51,12 @@ h2 {
   background-color: white;
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
 
 main {
@@ -85,7 +90,6 @@ ul {
 }
 
 .project-card:hover {
-    transform: translateY(-6px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
 
