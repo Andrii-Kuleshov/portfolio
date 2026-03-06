@@ -155,3 +155,20 @@ ul {
   font-weight: 500;
   margin-bottom: 15px;
 }
+
+header {
+    position: relative;
+}
+
+.lang-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.lang-switch span:hover {
+    text-decoration: underline;
+}
