@@ -17,6 +17,9 @@ const projectBtn = document.getElementById("project-btn");
 
 enBtn.onclick = function () {
 
+enBtn.classList.add("lang-active");
+uaBtn.classList.remove("lang-active");
+
 heroText.textContent =
 "Self-taught Frontend Developer building responsive websites with HTML and CSS.";
 
@@ -33,6 +36,9 @@ projectBtn.textContent = "View Project";
 
 
 uaBtn.onclick = function () {
+
+uaBtn.classList.add("lang-active");
+enBtn.classList.remove("lang-active");
 
 heroText.textContent =
 "Самоучка Frontend Developer, який створює адаптивні сайти за допомогою HTML та CSS.";
