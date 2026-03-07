@@ -172,3 +172,12 @@ header {
 .lang-switch span:hover {
     text-decoration: underline;
 }
+
+.lang-switch span {
+    cursor: pointer;
+}
+
+.lang-active {
+    text-decoration: underline;
+    font-weight: 600;
+}
