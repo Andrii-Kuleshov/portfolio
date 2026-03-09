@@ -60,3 +60,11 @@ projectText.textContent =
 "Адаптивна форма оплати кредитною карткою, створена з використанням семантичного HTML та CSS.";
 projectBtn.textContent = "Переглянути проєкт";
 };
+
+const browserLang = navigator.language || navigator.userLanguage;
+
+if (browserLang.startsWith("uk")) {
+  uaBtn.click();
+} else {
+  enBtn.click();
+}
