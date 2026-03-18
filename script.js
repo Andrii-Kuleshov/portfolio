@@ -15,51 +15,67 @@ const projectTitle = document.getElementById("project-title");
 const projectText = document.getElementById("project-text");
 const projectBtn = document.getElementById("project-btn");
 
+const project2Title = document.getElementById("project2-title");
+const project2Text = document.getElementById("project2-text");
+const project2Btn = document.getElementById("project2-btn");
+
+
 enBtn.onclick = function () {
 
-enBtn.classList.add("lang-active");
-uaBtn.classList.remove("lang-active");
+  enBtn.classList.add("lang-active");
+  uaBtn.classList.remove("lang-active");
 
-heroText.textContent =
-"Self-taught Frontend Developer building responsive websites with HTML and CSS.";
+  heroText.textContent =
+  "Self-taught Frontend Developer building responsive websites with HTML and CSS.";
 
-aboutTitle.textContent = "About";
-skillsTitle.textContent = "Skills";
-projectsTitle.textContent = "Projects";
-contactTitle.textContent = "Contact";
+  aboutTitle.textContent = "About";
+  skillsTitle.textContent = "Skills";
+  projectsTitle.textContent = "Projects";
+  contactTitle.textContent = "Contact";
 
-projectTitle.textContent = "Credit Card Payment Form";
-projectText.textContent =
-"A responsive credit card checkout form built with semantic HTML and CSS.";
-projectBtn.textContent = "View Project";
+  projectTitle.textContent = "Credit Card Payment Form";
+  projectText.textContent =
+  "A responsive credit card checkout form built with semantic HTML and CSS.";
+  projectBtn.textContent = "View Project";
+
+  project2Title.textContent = "Headphones Product Page";
+  project2Text.textContent =
+  "A simple product page with product layout and Buy Now flow connected to checkout.";
+  project2Btn.textContent = "View Project";
 };
 
 
 uaBtn.onclick = function () {
 
-uaBtn.classList.add("lang-active");
-enBtn.classList.remove("lang-active");
+  uaBtn.classList.add("lang-active");
+  enBtn.classList.remove("lang-active");
 
-heroText.textContent =
-"Самоучка Frontend Developer, який створює адаптивні сайти за допомогою HTML та CSS.";
+  heroText.textContent =
+  "Самоучка Frontend Developer, який створює адаптивні сайти за допомогою HTML та CSS.";
 
-aboutTitle.textContent = "Про мене";
-skillsTitle.textContent = "Навички";
-projectsTitle.textContent = "Проєкти";
-contactTitle.textContent = "Контакти";
+  aboutTitle.textContent = "Про мене";
+  skillsTitle.textContent = "Навички";
+  projectsTitle.textContent = "Проєкти";
+  contactTitle.textContent = "Контакти";
 
-aboutText1.textContent =
-"Я самоучка Frontend Developer, який зараз вивчає HTML, CSS та основи веб-розробки.";
-aboutText2.textContent =
-"Зараз я проходжу Responsive Web Design Certification, після чого планую вивчати JavaScript, щоб поглибити свої навички frontend розробки.";
-aboutText3.textContent =
-"Я відкритий до фріланс-проєктів та junior frontend можливостей, де зможу отримати реальний досвід і продовжити розвиватися як розробник.";
+  aboutText1.textContent =
+  "Я самоучка Frontend Developer, який зараз вивчає HTML, CSS та основи веб-розробки.";
+  aboutText2.textContent =
+  "Зараз я проходжу Responsive Web Design Certification, після чого планую вивчати JavaScript, щоб поглибити свої навички frontend розробки.";
+  aboutText3.textContent =
+  "Я відкритий до фріланс-проєктів та junior frontend можливостей, де зможу отримати реальний досвід і продовжити розвиватися як розробник.";
 
-projectTitle.textContent = "Форма оплати кредитною карткою";
-projectText.textContent =
-"Адаптивна форма оплати кредитною карткою, створена з використанням семантичного HTML та CSS.";
-projectBtn.textContent = "Переглянути проєкт";
+  projectTitle.textContent = "Форма оплати кредитною карткою";
+  projectText.textContent =
+  "Адаптивна форма оплати кредитною карткою, створена з використанням семантичного HTML та CSS.";
+  projectBtn.textContent = "Переглянути проєкт";
+
+  project2Title.textContent = "Сторінка товару (навушники)";
+  project2Text.textContent =
+  "Проста сторінка товару з layout та переходом до оплати.";
+  project2Btn.textContent = "Переглянути проєкт";
 };
+
 
 const browserLang = navigator.language || navigator.userLanguage;
 
