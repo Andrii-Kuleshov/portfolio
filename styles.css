@@ -181,3 +181,9 @@ header {
     text-decoration: underline;
     font-weight: 600;
 }
+
+.section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
