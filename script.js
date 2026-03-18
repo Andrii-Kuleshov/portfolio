@@ -33,6 +33,13 @@ enBtn.onclick = function () {
   projectsTitle.textContent = "Projects";
   contactTitle.textContent = "Contact";
 
+  aboutText1.textContent =
+  "I'm a self-taught Frontend Developer currently learning HTML, CSS and core web fundamentals. I like building websites and improving how they look and behave.";
+  aboutText2.textContent =
+  "Now I'm completing the Responsive Web Design Certification and after that I plan to continue with JavaScript to deepen my frontend development skills.";
+  aboutText3.textContent =
+  "I'm open to freelance projects and junior frontend opportunities where I can gain real experience and continue growing as a developer.";
+
   projectTitle.textContent = "Credit Card Payment Form";
   projectText.textContent =
   "A responsive credit card checkout form built with semantic HTML and CSS.";
