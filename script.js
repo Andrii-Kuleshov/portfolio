@@ -19,6 +19,10 @@ const project2Title = document.getElementById("project2-title");
 const project2Text = document.getElementById("project2-text");
 const project2Btn = document.getElementById("project2-btn");
 
+const project3Title = document.getElementById("project3-title");
+const project3Text = document.getElementById("project3-text");
+const project3Btn = document.getElementById("project3-btn");
+
 
 enBtn.onclick = function () {
 
@@ -42,13 +46,18 @@ enBtn.onclick = function () {
 
   projectTitle.textContent = "Credit Card Payment Form";
   projectText.textContent =
-  "A responsive credit card checkout form built with semantic HTML and CSS.";
+  "Responsive payment form with validation, input formatting, and improved user experience.";
   projectBtn.textContent = "View Project";
-
+  
   project2Title.textContent = "Headphones Product Page";
   project2Text.textContent =
-  "A simple product page with product layout and Buy Now flow connected to checkout.";
+  "Product landing page with structured layout and seamless navigation to checkout flow.";
   project2Btn.textContent = "View Project";
+  
+  project3Title.textContent = "Mini Store";
+  project3Text.textContent =
+  "Small e-commerce application with cart functionality, quantity management, localStorage integration, and checkout flow.";
+  project3Btn.textContent = "View Project";
 };
 
 
@@ -74,13 +83,18 @@ uaBtn.onclick = function () {
 
   projectTitle.textContent = "Форма оплати кредитною карткою";
   projectText.textContent =
-  "Адаптивна форма оплати кредитною карткою, створена з використанням семантичного HTML та CSS.";
+  "Адаптивна форма оплати з валідацією, форматуванням введення та покращеним користувацьким досвідом.";
   projectBtn.textContent = "Переглянути проєкт";
-
+  
   project2Title.textContent = "Сторінка товару (навушники)";
   project2Text.textContent =
-  "Проста сторінка товару з layout та переходом до оплати.";
+  "Лендінг сторінка товару зі структурованим layout та переходом до процесу оформлення замовлення.";
   project2Btn.textContent = "Переглянути проєкт";
+  
+  project3Title.textContent = "Міні-магазин";
+  project3Text.textContent =
+  "Невеликий e-commerce додаток з кошиком, керуванням кількістю товарів, використанням localStorage та процесом оформлення замовлення.";
+  project3Btn.textContent = "Переглянути проєкт";
 };
 
 
