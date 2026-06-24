@@ -30,17 +30,17 @@ enBtn.onclick = function () {
   uaBtn.classList.remove("lang-active");
 
   heroText.textContent =
-  "Self-taught Frontend Developer building responsive websites with HTML and CSS.";
-
+  "Self-taught Frontend Developer building responsive websites and web applications with HTML, CSS, and JavaScript.";
+  
   aboutTitle.textContent = "About";
   skillsTitle.textContent = "Skills";
   projectsTitle.textContent = "Projects";
   contactTitle.textContent = "Contact";
 
   aboutText1.textContent =
-  "I'm a self-taught Frontend Developer currently learning HTML, CSS and core web fundamentals. I like building websites and improving how they look and behave.";
+  "I'm a self-taught Frontend Developer with experience in HTML, CSS, and JavaScript. I enjoy building websites and improving how they look, feel, and behave.";
   aboutText2.textContent =
-  "Now I'm completing the Responsive Web Design Certification and after that I plan to continue with JavaScript to deepen my frontend development skills.";
+  "I've completed JavaScript studies, including asynchronous programming, and strengthened my knowledge of data structures and algorithms through continuous learning and practice.";
   aboutText3.textContent =
   "I'm open to freelance projects and junior frontend opportunities where I can gain real experience and continue growing as a developer.";
 
@@ -67,7 +67,7 @@ uaBtn.onclick = function () {
   enBtn.classList.remove("lang-active");
 
   heroText.textContent =
-  "Самоучка Frontend Developer, який створює адаптивні сайти за допомогою HTML та CSS.";
+  "Самоучка Frontend Developer, який створює адаптивні сайти та вебзастосунки за допомогою HTML, CSS та JavaScript.";
 
   aboutTitle.textContent = "Про мене";
   skillsTitle.textContent = "Навички";
@@ -75,9 +75,9 @@ uaBtn.onclick = function () {
   contactTitle.textContent = "Контакти";
 
   aboutText1.textContent =
-  "Я самоучка Frontend Developer, який зараз вивчає HTML, CSS та основи веб-розробки.";
+  "Я самоучка Frontend Developer з досвідом роботи з HTML, CSS та JavaScript. Мені подобається створювати сайти та покращувати їхній зовнішній вигляд і поведінку.";
   aboutText2.textContent =
-  "Зараз я проходжу Responsive Web Design Certification, після чого планую вивчати JavaScript, щоб поглибити свої навички frontend розробки.";
+  "Я завершив вивчення JavaScript, включно з асинхронним програмуванням, а також поглибив знання структур даних та алгоритмів завдяки постійному навчанню та практиці.";
   aboutText3.textContent =
   "Я відкритий до фріланс-проєктів та junior frontend можливостей, де зможу отримати реальний досвід і продовжити розвиватися як розробник.";
 
